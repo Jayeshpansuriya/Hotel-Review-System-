@@ -1,0 +1,8 @@
+{
+    "redHatDependencyAnalytics.enablePythonBestEffortsInstallation": true,
+    "redHatDependencyAnalytics.go.executable.path": "",
+    "redHatDependencyAnalytics.mvn.executable.path": "C:\\apache-maven-3.9.8\\apache-maven-3.9.8\\bin",
+    "redHatDependencyAnalytics.npm.executable.path": "C:\\Program Files\\nodejs\\npm.cmd",
+    "redHatDependencyAnalyticsServer.trace.server": "messages",
+    "maven.view": "flat"
+}

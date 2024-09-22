@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HotelServiceApplication",
+            "request": "launch",
+            "mainClass": "com.jd.hotel.HotelServiceApplication",
+            "projectName": "HotelService"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserServicesApplication<UserServices>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jd.user.services.UserServicesApplication",
+            "projectName": "UserServices",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RatingServiceApplication<RatingService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jd.rating.RatingServiceApplication",
+            "projectName": "RatingService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceRegistryApplication<ServiceRegistry>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jd.ServiceRegistry.ServiceRegistryApplication",
+            "projectName": "ServiceRegistry",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
