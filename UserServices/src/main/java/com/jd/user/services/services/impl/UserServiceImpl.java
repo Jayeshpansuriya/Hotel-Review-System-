@@ -15,7 +15,7 @@ import com.jd.user.services.entities.Hotel;
 import com.jd.user.services.entities.Rating;
 import com.jd.user.services.entities.User;
 import com.jd.user.services.exceptions.ResourceNotFoundException;
-import com.jd.user.services.external.HotelService;
+import com.jd.user.services.external.services.HotelService;
 import com.jd.user.services.repositories.UserRepository;
 import com.jd.user.services.services.UserService;
 
