@@ -10,5 +10,4 @@ public interface HotelService {
 
     @GetMapping("/hotels/{hotelId}") // Define the endpoint mapping
     Hotel getHotel(@PathVariable("hotelId") String hotelId);
-
 }
